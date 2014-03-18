@@ -1,6 +1,10 @@
 import Card
+import random
 
 
 class Deck():
     def __init__(self):
-        self.cards = ["Daimonds",]
+        self.__cards = ["Daimonds",]
+
+    def shuffle(self):
+        pass
